@@ -16,7 +16,7 @@ html {
     background-size:cover;
     background:#1F3864;
     background-repeat:no-repeat;
-    background:linear-gradient(top to bottom, #16002A, #340064, #16002A);
+    background:linear-gradient(#16002A, #340064, #16002A);
 }
 
 body {
