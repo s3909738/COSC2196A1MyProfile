@@ -218,10 +218,12 @@ a:active {
 #t01, th td{
 	table-layout:fixed;
 	border: 1px solid black;
+	border-collapse: collapse;
 	width:100%;
 }
 
 #t02, th, td {
 	table-layout:fixed;
 	border: 1px solid black;
+	border-collapse: collapse;
 }
