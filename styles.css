@@ -11,10 +11,11 @@
 		url('fonts/Calibri Regular.ttf')
 		format('trutype');
 }
+
 html {
     min-height:100%;
     background-size:cover;
-    background:#1F3864;
+    background:#16002A;
     background-repeat:no-repeat;
     background:linear-gradient(#16002A, #340064, #16002A);
 }
@@ -26,15 +27,17 @@ body {
 h1 {
 	font-family:dungeon;
 	font-size:36pt;
-	color:#FFFFFF;
+	color:#000000;
 	text-align:center;
 }
 
 h2 {
 	font-family:dungeon;
 	font-size:18pt;
-	color:#D9E2F3;
+	color:#000000;
 }
+
+/* links */
 
 a:link {
   color:#DB2964;
@@ -109,8 +112,6 @@ a:active {
 	vertical-align:top;
 }
 
-/* Personal Profile Table Data Styles */
-
 .subhead2 {
 	width:80%;
 	background-color:#CCD430;
@@ -122,6 +123,8 @@ a:active {
 	color:black;
 	text-align:left;
 }
+
+/* Personal Profile Table Data Styles */
 
 .tabledesc {
 	padding:10px;
@@ -217,13 +220,13 @@ a:active {
 
 #t01, th td{
 	table-layout:fixed;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	border-collapse: collapse;
 	width:100%;
 }
 
 #t02, th, td {
 	table-layout:fixed;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	border-collapse: collapse;
 }
